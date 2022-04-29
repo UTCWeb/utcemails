@@ -9,9 +9,26 @@ This project is built on [Foundation for Emails](http://foundation.zurb.com/emai
 - Built-in BrowserSync server
 - Full email inlining process
 
-## Installation
+## Getting Started
 
-To use this template, your computer needs [Node.js](https://nodejs.org/en/) version 10. The template can be installed with the Foundation CLI, or downloaded and set up manually.
+The main way to get started is with our [email template stack](https://github.com/zurb/foundation-emails-template). To use the stack, you'll need [Node.js](https://nodejs.org/en/) no greater than version 10 installed on your machine.
+
+`nvm` installation instructions can be found [here](https://github.com/nvm-sh/nvm#install--update-script)
+
+To set up the emails template, fork this repo, clone it to your local development environment, and run these commands:
+
+```bash
+nvm install 10
+nvm use 10 && npm install
+```
+
+Then run `npm start` to run the project. A new browser window will open with a BrowserSync server showing the finished files.
+
+Run `npm run build` to do a full email inlining process. If your build fails due to a problem with node-sass, run the following to reinstall node-sass:
+```bash
+nvm use 10 && npm uninstall node-sass && npm install node-sass
+```
+
 
 ## Build Commands
 
