@@ -11,7 +11,7 @@ This project is built on [Foundation for Emails](https://get.foundation/emails),
 
 ## Getting Started
 
-The main way to get started is with our [email template stack](https://github.com/zurb/foundation-emails-template). To use the stack, you'll need [Node.js](https://nodejs.org/en/) no greater than version 10 installed on your machine.
+The main way to get started is with our email template stack. To use the stack, you'll need [Node.js](https://nodejs.org/en/) no greater than version 10 installed on your machine.
 
 `nvm` installation instructions can be found [here](https://github.com/nvm-sh/nvm#install--update-script)
 
