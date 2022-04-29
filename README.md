@@ -17,7 +17,7 @@ The main way to get started is with our [email template stack](https://github.co
 
 To set up the emails template, fork this repo, clone it to your local development environment, and run these commands:
 
-```bash
+```
 nvm install 10
 nvm use 10 && npm install
 ```
@@ -25,7 +25,7 @@ nvm use 10 && npm install
 Then run `npm start` to run the project. A new browser window will open with a BrowserSync server showing the finished files.
 
 Run `npm run build` to do a full email inlining process. If your build fails due to a problem with node-sass, run the following to reinstall node-sass:
-```bash
+```
 nvm use 10 && npm uninstall node-sass && npm install node-sass
 ```
 
