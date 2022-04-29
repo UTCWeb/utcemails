@@ -32,6 +32,8 @@ nvm use 10 && npm uninstall node-sass && npm install node-sass
 
 ## Build Commands
 
+Note: if you have multiple versions of node.js installed, preface all commands below with `nvm use 10 && `
+
 Run `npm start` to kick off the build process. A new browser tab will open with a server pointing to your project files.
 
 Run `npm run build` to inline your CSS into your HTML along with the rest of the build process.
