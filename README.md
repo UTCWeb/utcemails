@@ -1,9 +1,9 @@
 # Responsive HTML Email Templates
 
-This project is built on [Foundation for Emails](http://foundation.zurb.com/emails), a framework for creating responsive HTML devices that work in any email client. It has a Gulp-powered build system with these features:
+This project is built on [Foundation for Emails](https://get.foundation/emails), a framework for creating responsive HTML devices that work in any email client. It has a Gulp-powered build system with these features:
 
-- Handlebars HTML templates with [Panini](http://github.com/zurb/panini)
-- Simplified HTML email syntax with [Inky](http://github.com/zurb/inky)
+- Handlebars HTML templates with [Panini](https://github.com/zurb/panini)
+- Simplified HTML email syntax with [Inky](https://github.com/zurb/inky)
 - Sass compilation
 - Image compression
 - Built-in BrowserSync server
