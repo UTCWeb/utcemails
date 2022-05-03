@@ -18,7 +18,7 @@ html,
 
 // Full Width Headers
 .header {
-  background: #8a8a8a;
+  background: $utc-primary-blue;
 }
 
 .header .columns {
@@ -56,4 +56,24 @@ table.button.google table td {
 
 .wrapper.secondary {
   background: #f3f3f3;
+}
+
+// HTML elements
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-stretch: condensed;
+  color: $utc-primary-blue;
+
+}
+h2 {
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: normal;
+  font-stretch: condensed;
+  color: $utc-primary-blue;
+}
+hr {
+  border-top: 1px solid $black;
 }
